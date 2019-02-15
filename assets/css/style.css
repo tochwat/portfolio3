@@ -25,6 +25,34 @@ body {
   height: 50px;
 }
 
+.contact-info {
+  margin: 1rem!important;
+}
+
+.contact-line {
+  color: #3a8480;
+}
+
+.contact-line:hover {
+  color: #22716d;
+}
+
+
+.portfolio-gitlink {
+  color: #3a8480;
+  display: block;
+  margin-top: 10px;
+}
+
+.portfolio-gitlink:hover {
+  color: #22716d;
+}
+
+.card {
+  margin: 1rem;
+
+}
+
 div[class*="col-sm-"]{
     background-color: white;
     margin: 0px 0px 0px 0;
@@ -48,16 +76,7 @@ div[class*="col-sm-"]{
 
 
 .card-title {
-  margin-bottom: 1.5rem;
-  background-color: #4aaaa5;
-  /* margin-right: 0; */
-  /* width: 100%; */
-  text-align: center;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  padding: .5em;
+  
 }
 
 
@@ -77,8 +96,13 @@ div[class*="col-sm-"]{
   border-color: #3a8480;
 }
 
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #22716d;
+  border-color: #22716d;
+}
+
 .card-title:hover {
-  background-color: #3a8480;
+  
 }
 
 h1 {
